@@ -1,0 +1,17 @@
+.item {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 200px;
+  background-color: rgb(224, 224, 224);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.status {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}

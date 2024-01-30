@@ -1,0 +1,23 @@
+.transaction-history {
+  margin: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.transaction-history > thead > tr > th {
+  background-color: aquamarine;
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.transaction-history > tbody > tr > th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 5px;
+}

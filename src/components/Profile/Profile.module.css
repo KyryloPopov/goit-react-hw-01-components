@@ -1,0 +1,41 @@
+.profile {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgb(224, 224, 224);
+  max-width: 250px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.description > p {
+  color: rgb(87, 87, 87);
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.stats > li {
+  padding: 5px;
+}
+
+.stats > li > * {
+  display: block;
+}
+
+.avatar {
+  max-width: 250px;
+}
